@@ -1,0 +1,8 @@
+<% dim connect, rstData,cn
+set cn = Server.CreateObject("ADODB.Connection")
+Connect = "DRIVER={Microsoft Access Driver (*.mdb)};DBQ=D:\hshome\energy\energychoices.com\database\ecdata.MDB;user id=energy;password=energy"
+cn.open connect
+
+
+'set connect = server.createobject("adodb.connection")
+'connect.open "DRIVER={Microsoft Access Driver (*.mdb)};DBQ=D:\hshome\energy\energychoices.com\database\ecdata.MDB;user id=energy;password=energy"%>

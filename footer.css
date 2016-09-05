@@ -1,0 +1,17 @@
+/* ~~ The footer ~~ */
+.footer {
+	padding: 10px 0;
+	float: left;
+	width: 920px;
+	background-image: url(images/footer_background.png);
+	height: 40px;
+}
+.footer p {
+	font-size: 12px;
+	text-align: center;
+	margin: 0;
+	color: #FFF;
+}
+.footer a {
+	color: #FFF;
+}

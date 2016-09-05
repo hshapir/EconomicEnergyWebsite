@@ -1,0 +1,69 @@
+<script language="JavaScript">
+var aboutover = new Image();
+aboutover.src = "../images3/NavBarAboutOff2.gif"
+var homeover = new Image();
+homeover.src = "../images3/NavBarhomeOff2.gif"
+var buyelecover = new Image();
+buyelecover.src = "../images3/NavBarbuyelecOff2.gif"
+var casestudies = new Image();
+casestudies.src = "../images3/NavBarcasestudiesOff2.gif"
+var missionover = new Image();
+missionover.src = "../images3/NavBarmissionOff2.gif"
+
+
+</script>
+<body bgcolor="#3399FF">
+<div align="center">
+  <center>
+<table border="0" width="750" cellspacing="0" cellpadding="1">
+  <tr>
+    <td  valign="middle" align="center"><img border="0" src="../images3/CFL118.JPG"></td>
+    
+    <td  valign="middle" align="center"><img border="0" src="../images3/Logo.GIF"></td>
+
+    <td  valign="middle"><img border="0" src="../images3/windpower118.JPG"></td>
+   
+  </tr>
+</table>
+
+<br>
+
+<TABLE border=0 width="100%" cellPadding=4 cellSpacing=0 align="center">
+  <TBODY>
+  <TR vAlign=top align="center">
+    
+     
+  
+
+ 
+
+
+
+<%
+tabname(0,0)="index.asp"
+tabname(0,1)="buyelec"
+tabname(3,0)="About.asp"
+tabname(3,1)="About"
+tabname(2,0)="CaseStudies.asp"
+tabname(2,1)="CaseStudies"
+tabname(1,0)="Mission.asp"
+tabname(1,1)="Mission"
+
+%>
+
+<tr ><td valign="top" width="30"><table cellspacing="0" cellpadding="0" ><tr><a
+ <%for intcnt = 0 to 3 %>
+
+	<%if pagename = tabname(intcnt,1) then%> 
+     	 ></a><img 
+  		src="../images3/NavBar<%response.write(tabname(intcnt,1))%>On.gif"
+ 		 alt="/<%response.write(tabname(intcnt,1))%>"  name="<%response.write(tabname(intcnt,1))%>2" border="0"> </tr><tr ><a
+   <%else%>
+href="<%response.write("../" & tabname(intcnt,0))%>"     
+           onmouseout="window.document.<%response.write(tabname(intcnt,1))%>2.src='../images3/NavBar<%response.write(tabname(intcnt,1))%>Off.gif';"
+			 onmouseover="window.document.<%response.write(tabname(intcnt,1))%>2.src='../images3/NavBar<%response.write(tabname(intcnt,1))%>Off2.gif';"><img
+ 			src="../images3/NavBar<%response.write(tabname(intcnt,1))%>off.gif"  alt="/<%response.write(tabname(intcnt,1))%>" name="<%response.write(tabname(intcnt,1))%>2"  border="0"> </a></tr><tr ><a 
+   <%end if%>
+<%next%>
+/a></tr></table><td  bgcolor="#FFFFFF"   >
+

@@ -1,0 +1,3 @@
+<% dim connect, rstData
+set connect = server.createobject("adodb.connection")
+connect.open "energy_ecdata" %>

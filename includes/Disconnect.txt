@@ -1,0 +1,3 @@
+<%set rstdata = nothing
+set connect = nothing
+'set cn = nothing%>

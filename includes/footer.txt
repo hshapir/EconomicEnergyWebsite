@@ -1,0 +1,5 @@
+</td></tr>
+</table>
+<p></p><TABLE align="center"><tr align="center"><td width="200"><FONT FACE="Verdana" size="0"><b><a href="FAQ.asp">Restructuring FAQs</b></a></font></td><td width="200"><a href="Restructuring.asp"><FONT FACE="Verdana" size=0"><b>Background on<br>Electricity Deregulation</b></a></font></td><td width="200"><a href="glossary.asp"><FONT FACE="Verdana" size=0"><b><CENTER>Glossary of<br>Deregulation Terms</b></a></font></td></tr><tr align="center"><td colspan="3"><HR></td></tr>
+<tr align="center"><td><FONT FACE="Verdana" size="0"><b><a href="privacy.asp">Privacy</b></a></font></td><td></td><td><a href="terms.asp"><FONT FACE="Verdana" size="0"><b><CENTER>Terms & Conditions</b></a></center></font></td></tr><tr><td colspan="3"><FONT FACE="Verdana" size="0"><b><center>Copyright, Energy Choices, PC 2009</b></td></tr></table>
+
